@@ -5,7 +5,7 @@ import Link from "next/link";
 import { generateMetadata } from "@/lib/seo";
 
 export const metadata = generateMetadata({
-  title: "Contact | simran vishwakarma - Front End Developer",
+  title: "Contact | Simran Vishwakarma - Front End Developer",
   description:
     "Get in touch with simran vishwakarma for freelance projects and collaborations.",
   url: "https://simran-vishwakarma.vercel.app/contact",

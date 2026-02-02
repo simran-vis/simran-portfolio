@@ -7,7 +7,7 @@ import allSkills from "@/data/skillsdata";
 import { generateMetadata } from "@/lib/seo";
 
 export const metadata = generateMetadata({
-  title: "Skills | simran  - Front End Developer",
+  title: "Skills | Simran Vishwakarma - Front End Developer",
   description:
     "Explore simran  technical skills and expertise in web development, including frontend, backend, and DevOps technologies.",
 

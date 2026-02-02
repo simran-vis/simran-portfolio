@@ -18,7 +18,7 @@ import Link from "next/link";
 import { generateMetadata } from "@/lib/seo";
 
 export const metadata = generateMetadata({
-  title: "Services | simran vishwakarma  - Front End Developer",
+  title: "Services | Simran Vishwakarma  - Front End Developer",
   description:
     "Comprehensive web development services including frontend, backend, mobile apps, and cloud solutions by John Doe.",
 });

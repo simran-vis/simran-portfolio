@@ -1,29 +1,41 @@
 export function generateMetadata({
-  title = "simran vishwakrama - Front End Developer",
-  description = "Experienced Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
+  title = "Simran Vishwakarma | Frontend Developer (React, Next.js)",
+  description = "Simran Vishwakarma is a Frontend Developer skilled in React, Next.js, JavaScript, HTML, CSS, and modern web technologies.",
   url = "https://simran-vishwakarma.vercel.app/",
 }) {
   return {
     title,
     description,
-    keywords:
-      "Full Stack Developer, React, Next.js, Node.js, JavaScript, Web Development, simran vishwakarma",
-    authors: [{ name: "simran vishwakarma " }],
-    creator: "simran vishwakarma",
+    keywords: [
+      "Simran Vishwakarma",
+      "Simran Vishwakarma Frontend Developer",
+      "React Developer Portfolio",
+      "Next.js Developer",
+      "Frontend Developer India",
+      "JavaScript Developer",
+    ],
+    authors: [{ name: "Simran Vishwakarma" }],
+    creator: "Simran Vishwakarma",
+
+    alternates: {
+      canonical: url,
+    },
+
     openGraph: {
       type: "website",
       locale: "en_US",
       url,
       title,
       description,
-      siteName: "simran vishwakarma Portfolio",
+      siteName: "Simran Vishwakarma Portfolio",
     },
+
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      creator: "@simran",
     },
+
     robots: {
       index: true,
       follow: true,
@@ -35,6 +47,7 @@ export function generateMetadata({
         "max-snippet": -1,
       },
     },
-    metadataBase: new URL("https://simran-vishwakarma.vercel.app/"),
+
+    metadataBase: new URL(url),
   };
 }
