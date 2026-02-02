@@ -75,7 +75,7 @@ I'm a Front-End Developer with 1.8 years of professional experience, specializin
               className="relative rounded-lg px-10 py-5 border-2 border-blue-600 text-blue-600 font-semibold hover:border-blue-700 hover:text-blue-700 transition-all duration-300 shadow-sm hover:shadow-md flex items-center justify-center gap-2"
             >
               <Link
-                href="/simran-front-end-developer.pdf"
+                href="/simran-front-end-developer-resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download={true}
