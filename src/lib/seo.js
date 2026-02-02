@@ -48,6 +48,10 @@ export function generateMetadata({
       },
     },
 
-    metadataBase: new URL(url),
+    metadataBase: new URL("https://simran-vishwakarma.vercel.app/"),
   };
 }
+
+
+
+
