@@ -112,7 +112,7 @@ Front-End Developer with ~2 years of experience building responsive and user-fri
           <div className="relative w-full max-w-md mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full blur-3xl opacity-20"></div>
             <Image
-              src="/simran.jpg"
+              src="/simran-image.png"
               alt="simran vishwakarma front-end-Developer"
               width={400}
               height={400}

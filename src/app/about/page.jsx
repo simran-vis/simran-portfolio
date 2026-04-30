@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export const metadata = generateMetadata({
   title: "About |Simran vishwakarma - Front End Developer",
   description:
-    "I'm a passionate Front-End Developer with 1.8 years of professional experience, focused on building responsive, scalable, and user-friendly web applications. I enjoy transforming ideas into clean, intuitive interfaces that deliver meaningful user experiences.",
+    "Front-End Developer with around 2 years of experience in building responsive, scalable, and user-friendly web applications using modern web technologies. Proficient in React.js, JavaScript, HTML, CSS, Tailwind CSS, and Redux, with a strong understanding of component-based architecture and state management. Currently working at Intugratic Solution Pvt. Ltd., contributing to the development of dynamic web applications and admin dashboards. Experienced in implementing features like data tables, filtering, sorting, form handling, and API integration. Skilled in creating clean UI/UX, optimizing performance, and writing maintainable, reusable code.",
 url:"",
   });
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
             {/* Profile Image */}
             <div className="relative w-40 h-40 mx-auto">
               <Image
-                src="/simran.jpg"
+                src="/simran-image.png"
                 alt="simran vishwakarma - Front Developer Profile Picture"
                 width={160}
                 height={160}
