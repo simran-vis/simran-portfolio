@@ -49,9 +49,10 @@ export default function HeroSection() {
               />
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-I'm a Front-End Developer with 1.8 years of professional experience, specializing in building responsive, scalable, and user-friendly web applications using React, JavaScript, and modern UI frameworks.
-            </p>
+Front-End Developer with ~2 years of experience building responsive and user-friendly web applications. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and Redux. Currently working at Intugratic Solution Pvt. Ltd., developing dynamic UIs and admin dashboards with features like API integration, data handling, and performance optimization. Passionate about learning and growing in the MERN stack and Data Structures & Algorithms.     
+       </p>
           </div>
+
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
@@ -68,22 +69,21 @@ I'm a Front-End Developer with 1.8 years of professional experience, specializin
             </Button>
 
             {/* Outline Button: Download Resume */}
-            <Button
-              size="lg"
-              variant="outline"
-              asChild
-              className="relative rounded-lg px-10 py-5 border-2 border-blue-600 text-blue-600 font-semibold hover:border-blue-700 hover:text-blue-700 transition-all duration-300 shadow-sm hover:shadow-md flex items-center justify-center gap-2"
-            >
-              <Link
-                href="/simran-front-end-developer-resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download={true}
-                className="flex items-center gap-2"
-              >
-                <Download className="h-5 w-5" /> Download Resume
-              </Link>
-            </Button>
+           <Button
+  size="lg"
+  variant="outline"
+  asChild
+  className="relative rounded-lg px-10 py-5 border-2 border-blue-600 text-blue-600 font-semibold hover:border-blue-700 hover:text-blue-700 transition-all duration-300 shadow-sm hover:shadow-md flex items-center justify-center gap-2"
+>
+  <Link
+    href="https://drive.google.com/file/d/1c5Ilwnp4inVYOBC3_fXVPvaIgSo_4iw7/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2"
+  >
+    <Download className="h-5 w-5" /> Download Resume
+  </Link>
+</Button>
           </div>
 
           <div className="flex items-center space-x-6">

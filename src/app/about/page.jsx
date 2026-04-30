@@ -16,7 +16,7 @@ const experiences = [
   {
     title: "Front End Developer ",
     company: "Intugratic Solution pvt ldt",
-    period: "july 2024 - Present",
+    period: "May 2024 - Present",
     description:
 "I worked on a CRM-based web application where I developed and maintained responsive user interfaces using React.js and Tailwind CSS. My responsibilities included building reusable components, integrating REST APIs, handling dynamic data, and collaborating with the team to improve usability and overall performance."
 
@@ -24,7 +24,7 @@ const experiences = [
   {
     title: "Freelance Web Developer",
     company: "",
-    period: "march -june 2024",
+    period: "March -June 2024",
     description:
 " Developed responsive UI for TheKiddles.com, improving layout and interaction for better engagement across devices.  Worked on the True Tree project, implementing clean and performance-focused front-end features using modern technologies."
   },
@@ -37,13 +37,13 @@ const education = [
     school: "Lakshmi Narain College of Technology, Bhopal MP",
     period: "2022 - 2024",
     cgpa:
-"8.67"  },
+"8.75"  },
   
   {
-    degree: "Bachelor of Commerce.-(b.com)",
+    degree: "Bachelor of Commerce Computer Application.-(b.com)",
     school: " Govt. Maharani Laxmi Bai Girls P.G. Autonomous College Bhopal MP.",
     period: "2019-2022",
-    cgpa:"8.5"
+    cgpa:"76.8%"
   },
  
   {
@@ -97,8 +97,7 @@ export default function AboutPage() {
   <span className="font-semibold text-blue-600 dark:text-indigo-400">
     Front-End Developer
   </span>{" "}
- with 1.8 years of professional experience, focused on building responsive, scalable, and user-friendly web applications. I enjoy transforming ideas into clean, intuitive interfaces that deliver meaningful user experiences.
-
+ with ~2 years of experience building responsive and user-friendly web applications. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and Redux. Currently working at Intugratic Solution Pvt. Ltd., developing dynamic UIs and admin dashboards with features like API integration, data handling, and performance optimization. Passionate about learning and growing in the MERN stack and Data Structures & Algorithms.
 </p>
 
             </div>
@@ -142,7 +141,7 @@ export default function AboutPage() {
                   <h3 className="font-semibold text-gray-900 dark:text-white">
                     Experience
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-300">1.8 Years</p>
+                  <p className="text-gray-600 dark:text-gray-300">2 Years</p>
                 </div>
                 <div className="space-y-1">
                   <h3 className="font-semibold text-gray-900 dark:text-white">
