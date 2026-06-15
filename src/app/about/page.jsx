@@ -16,7 +16,7 @@ const experiences = [
   {
     title: "Front End Developer ",
     company: "Intugratic Solution pvt ldt",
-    period: "May 2024 - Present",
+    period: "June 2024 - Present",
     description:
 "I worked on a CRM-based web application where I developed and maintained responsive user interfaces using React.js and Tailwind CSS. My responsibilities included building reusable components, integrating REST APIs, handling dynamic data, and collaborating with the team to improve usability and overall performance."
 
